@@ -15,7 +15,7 @@ class  App extends Component {
 
         this.state = {
             videos : [],
-            selectedVideo: null
+            selectedVideo: previous
         }
 
         this.videoSearch('AeroChord surface');
